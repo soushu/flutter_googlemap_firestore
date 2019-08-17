@@ -1,16 +1,22 @@
 # flutter_googlemap_firestore
+![Alt text](./sample.png?raw=true "iOS & Android")
 
-Flutter Google Map with Firestore start kit
+## Description
+View Google's worldwide office locations using GoogleMap on iOS and Android.
+If you get an API key, you can also link with Firestore.
+
+## Language
+- Android: Kotlin
+- iOS: Swift
+
+## Requirements
+Flutter 1.0 SDK
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Get API Key from https://cloud.google.com/apis/
+- Clone the project [git clone https://github.com/soushu/flutter_googlemap_firestore.git]
+- Insert API KEY in Android Manifest & App Delegate (iOS)
+- Perform initial setup to use Firestore in the Firebase console. https://console.firebase.google.com/
+- For Android, place google-services.json under app/src.
+- For iOS, place GoogleService-Info.plist under Runner.
+- Build & Run the project
