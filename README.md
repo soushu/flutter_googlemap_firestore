@@ -19,4 +19,7 @@ Flutter 1.0 SDK
 - Perform initial setup to use Firestore in the Firebase console. https://console.firebase.google.com/
 - For Android, place google-services.json under app/src.
 - For iOS, place GoogleService-Info.plist under Runner.
+- Create a document 'test' in firestore.
 - Build & Run the project
+- If the string 'Successful integration with firestore!' is stored in the column 'title', the integration is successful.
+![Alt text](./sample2.png)
